@@ -1,0 +1,17 @@
+.results {
+    color: white;
+    background-color: #706C61;
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.3), 0px 8px 16px rgba(255, 255, 255, 0.2);
+    width: 300px;
+    /* padding: 0 20px; */
+    height: 900px ;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.h3{
+    padding:10px;
+    box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.2);
+    margin: 0;
+}

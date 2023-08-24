@@ -1,4 +1,31 @@
-.highligh{
-    font-weight: bold;
-    
+.highlight{
+    color: #d8d4f2 ;
+
+}
+body{
+    background-color: #393E46;
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 6px 22px 0px rgba(255,255,255,0.44);  
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+h1{
+    font-size:  45px;
+}
+.results-bar {
+    position: absolute;
+    top: 30vh;
+    left: 10rem;
+}
+
+.bar-playlist {
+    position: absolute;
+    top: 30vh;
+    right: 10rem;
 }
