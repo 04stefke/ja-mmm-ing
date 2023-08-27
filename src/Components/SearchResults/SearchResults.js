@@ -7,7 +7,11 @@ export default class SearchResults extends Component {
     return (
       <div className='results'>
         <h3 className='h3'>Results</h3>
-        <Tracklist></Tracklist>
+        <Tracklist 
+        tracks={this.props.searchResults}
+        onAdd={this.props.addTrack}
+        isRemoval={false}
+        ></Tracklist>
       </div>
     )
   }
