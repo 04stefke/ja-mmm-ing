@@ -11,7 +11,7 @@ export default class SearchBar extends Component {
   }
 
   search(){
-    this.props.onSearch(this.props.term)
+    this.props.onSearch(this.state.term)
   }
 
   handleTermChange(event){

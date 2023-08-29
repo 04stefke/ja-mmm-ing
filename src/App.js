@@ -10,7 +10,7 @@ export default class App extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      searchResults: '',
+      searchResults: [],
       playlistName: 'My Playlist',
       playlistTracks: []
 
